@@ -1,9 +1,6 @@
 # config is ignore
 config/
 
-# unsolved file is ignored
-unsolved/
-
 # pyexe is viatualenv for python
 pyexe27/
 
