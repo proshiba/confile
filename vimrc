@@ -2,7 +2,7 @@
 " 1. mkdir -p ~/.vim/dein/repos/github.com/Shougo/dein.vim
 " 2. git clone https://github.com/Shougo/dein.vim.git ~/.vim/dein/repos/github.com/Shougo/dein.vim
 " 3. copy vimrc to ~/.vimrc
-" 4. do -> call#install() 
+" 4. execute in vim -> call dein#install() 
 
 " Plugin Settings
 
@@ -41,8 +41,8 @@ set guifont=MS_Gothic:h14
 set t_Co=256
 set background=dark
 
-set undodir=/root/.vim/undo_txt
-set backupdir=/root/.vim/backup_txt
+set undodir=~/.vim/undo_txt
+set backupdir=~/.vim/backup_txt
 
 " normal config
 set mouse=
